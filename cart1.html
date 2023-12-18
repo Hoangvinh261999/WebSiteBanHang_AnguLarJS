@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+ crossorigin="anonymous">
+</script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+ rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/d49588c4a5.js"
+    crossorigin="anonymous"></script>
+    <!--Start of Tawk.to Script-->
+                                <script type="text/javascript">
+                                    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                                    (function(){
+                                    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                                    s1.async=true;
+                                    s1.src='https://embed.tawk.to/6513e4e7b1aaa13b7a792ed1/1hbarcaq8';
+                                    s1.charset='UTF-8';
+                                    s1.setAttribute('crossorigin','*');
+                                    s0.parentNode.insertBefore(s1,s0);
+                                    })();
+                                    </script>
+    <link type="text/css" rel="stylesheet" href="cartcss.css">
+
+</head>
+<body>
+    
+    <div id="header">
+       
+    </div>
+    <section class="discount-banner">
+        <div class="text-center" id="text-class">
+            <p style="font-size: large;">
+                Spend £150 and get 20% off almost everything with code: AVINH20. Terms and conditions apply.
+            </p>
+        </div>
+    </section>
+    <div class="cart">
+        <div class="cart-content">
+            <div class="row"   >
+                <div class="col-7" style="padding-right: 0px !important;">
+                    <div class="bag mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <Strong><p class="m-0" style="font-size: x-large;">MY BAG</p></Strong>
+                            <p class="float-end m-0" style="font-size: x-large;">Items are reserved for 60 minutes</p>
+                        </div>
+                    </div>
+                  
+                        <div class="row" ng-repeat="sp in spGh" ng-show="spGh.length>0">
+                            <div class="col-3">
+                                        <img src="img/{{sp.hinh}}" style="align-items: center; width: 150px; height: 170px;">
+                            </div>
+                            <div class="col-9 justify-content-center">
+                                <div  class="d-flex">
+                                   <span> size:</span>
+                                   <div>
+                                    <select class="form-select" aria-label="Default select example" ng-model="sp.size">
+                                        <option value="" selected>{{sp.size}}</option>
+                                        <option ng-repeat="sz in selectedProduct.size" value="{{ sz }}" ng-hide="sp.size=={{ sz }}">{{ sz }}</option>
+                                    </select>
+                                </div>
+                                <span> Số Lượng:</span>
+                                <select class="form-select d-inline w-25" ng-model="sp.qty" aria-label="Default select example">
+                                    <option value="{{sp.qty}}">{{sp.qty}}</option>
+                                <option ng-repeat="value in [1, 2, 3, 4, 5]" value="{{value}}" ng-hide="sp.qty == value">{{value}}</option>
+                                </select>
+                                    <div class="mx-2">
+                                        <button class="btn btn-info" ng-click="xoa(sp, $index)">Xoá </button>
+                                        <button class="btn btn-info" ng-click="addCart(sp, $index)">Thêm</button>
+
+                                    </div>
+                                </div>
+                                <br>
+                                    <div ng-show="sp.gia>0&&sp.qty>0">
+                                        <span>Đơn giá {{ (sp.gia | currency : "VND " : 0) | removeVND }} VND *{{sp.qty}}</span>
+                                        <span >Total={{(sp.gia*sp.qty)|number : 2}}</span>
+                                        <br>
+              
+                                    </div>
+                            </div>
+                        <div>
+                       
+                     </div>
+  
+                </div>
+                <div ng-hide="spGh.length>0">
+                    <h1 style="font-size: 40px;text-align: center;">Nothing here! Shoping now!</h1>
+                    <img src="img/ghtrong.png" style="width: 100%;">
+                
+                </div>
+                <div class="mx-3"   style="padding-right: 0px !important;">
+                    <p>FREE* STANDARD DELIVERY</p>
+                    <p>Faster delivery options available to most countries.</p>
+                    <a href="" ><p>More info</p></a>
+                </div>
+                </div>
+                <div class="col-5">
+                    <div class="container">
+                        <div class="payment">
+                                <h1>All</h1>
+                                <div ng-repeat="sp in spGh">
+                                    Name:{{sp.name}} size: {{sp.size}} Sl: {{sp.qty}}
+                                </div>
+          
+                                <hr>
+                               <div class="d-flex justify-content-between">
+                                <h5 class="float-start">Total: {{tongcong | number: 2}}</h5>      
+                                                          <!-- <h5 class="float-end">£15.00</h5> -->
+                               
+                               </div>
+                               <h5 class=""><i class="fa-solid fa-truck-fast"></i> Delivery</h5>
+                               <a href="login.html"><button type="button" class="btn btn-success w-100 mt-2">Success</button></a>
+                               <h5 class="mt-4">We accept</h5>
+                               <a href="login.html"><img src="https://assets.asosservices.com/asos-finance/images/marketing/us/singleV3.png" alt="Apple Pay, American Express, VISA, VISA Electron, VISA Debit, VISA Carte Bleue, VISA Electron Carte Bleue, VISA Debit Carte Bleue, VISA Purchasing, Maestro, Mastercard, Debit Mastercard, PayPal, Gift voucher, Google Pay" class="w-100">
+                               </a>
+                               <p>
+                                Got a discount code? Add it in the next step.
+                               </p>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+    
+            </div>
+        </div>
+
+
+</div>
+
+    
+</div>
+
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+[
+{
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts2.webp",
+    "gia": 1125000,
+    "size": [31,23,25],
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts3.webp",
+    "gia": 1125000,
+    "size": [31,23,25],
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+
+
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts4.webp",
+    "gia": 1125000,
+    "size": 33,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts5.webp",
+    "gia": 1125000,
+    "size": 26,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts6.jpg",
+    "gia": 1125000,
+    "size": 28,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts7.webp",
+    "gia": 1125000,
+    "size": 29,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts8.webp",
+    "gia": 1125000,
+    "size": 31.5,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts9.webp",
+    "gia": 1125000,
+    "size": 34,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts10.webp",
+    "gia": 1125000,
+    "size": 33,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts11.webp",
+    "gia": 1125000,
+    "size": [36,37,34],
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts12.webp",
+    "gia": 1125000,
+    "size": 37,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  },
+  {
+    "id": "b1",
+    "name": "blazer1",
+    "hinh": "ts2.webp",
+    "gia": 1125000,
+    "size": 31,
+    "hct":[
+        {
+          "hinh1":  "bzct.jpg",
+          "hinh2":  "blct2.webp",
+          "hinh3":  "blct3.webp",
+          "hinh4":  "blct4.webp"
+        }
+    ]
+  }
+
+]

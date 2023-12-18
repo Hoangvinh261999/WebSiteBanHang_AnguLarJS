@@ -1,0 +1,349 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.main-content{
+    height: 100%;
+}
+.chrome-main-content--accessible {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.quocGia{
+    
+        box-sizing: border-box;
+        height: 30px;
+        margin: 0 auto;
+        max-width: 1366px;
+        padding: 0;
+
+}
+#s1,.menu1,.menuan,.new-sale,.about-app,.info{
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+.qg{
+    float: right;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px !important;
+    padding-right: 40px !important;
+}
+
+
+
+
+
+ li {
+    /* display: inline-block; */
+    /* margin-right: 10px; Thêm khoảng cách giữa các mục danh sách nếu cần */
+    list-style: none;
+}
+.qg li {
+    display: inline-block;
+
+    /* border-right: 1px solid #000; Màu và kiểu gạch phân cách */
+    /* padding-right: 10px; /* Khoảng cách giữa gạch và nội dung */
+    /* margin-right: 10px;  */
+    border-left:1px solid #DDDDDD ;
+}
+.qg li:last-child {
+    border-right:1px solid #DDDDDD;
+}
+
+
+
+ .qg a {
+    color: var(--f1xms7);
+    display: block;
+    line-height: 30px;
+    padding: 0 19px;
+    text-decoration: none;
+}
+header{
+    font-family: futura-pt,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    
+}
+.search-menu{
+    height: 90px;
+}
+.menuds{
+    background-color: black;
+    width: 100%;
+}
+.search-menu{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+.searchds{
+    color: aliceblue;
+    height: 45px;
+}
+#iconh{
+    font-size: 20px;
+}
+.searchds{
+    background-color: #2D2D2D;
+}
+a {
+    color: inherit; /* Sử dụng màu của phần tử cha */
+    text-decoration: none; /* Bỏ gạch chân cho liên kết */
+
+}
+.menuds{
+    background-color: #525250;
+}
+.menu1{
+    height: 45px;
+
+}
+#vinh:hover+.menu2{
+display: block;
+}
+.tt{
+    width: 100%;
+    background-color: #2D2D2D;
+    height: 60px;
+}
+.banner{
+    background-color: #FF385C;
+    font-size: larger;
+    font-weight: 900;
+}
+/* Import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* Use the font in your CSS rules */
+p {
+  font-family: 'Patrick Hand', cursive;
+font-size: small;}
+
+.information{
+  background-color: #EEEEEE;
+  
+}
+.list-group-item {
+  background-color: transparent; /* Hoặc */
+  background-color: initial;
+  border: none;
+}
+#bank {
+    display: flex; /* Sử dụng flexbox để xếp ảnh */
+    justify-content: space-between; /* Các ảnh sẽ căn giữa và có khoảng cách giữa chúng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+}
+
+#bank li {
+    margin-right: 10px; /* Khoảng cách giữa các ảnh */
+ 
+}
+#bank li img {
+ width: 35px;
+ height: 25px;
+ 
+}
+
+#aboutme{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#bank {
+    border-left: 5px solid #525250;
+    padding-left: 10px; /* Để tạo khoảng cách giữa border và nội dung */
+}
+
+.wrap-ft{
+    display: flex;
+    height: 50px;
+    max-width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.fsta{
+    height: 100%;
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.fend{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.wrap-ft p{
+    margin-bottom: 0px;
+}
+#ulft{
+    margin-right: 5px;
+    margin-left: auto;}
+    .pan{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .endft{
+        background-color: #DDDDDD;
+    }
+    #discout-left{
+        background-color:   #CCFF00;
+    }
+    #discout-right{
+        background-color:   #F5F5F2;
+    }
+
+    #anhchitiet img{
+        width: 513px;
+        height: 614px;
+    }
+    .con1{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 960px;
+    }
+    .carousel-control-next-icon {
+        background-image: url(img/icons8-circled-right-48.png);
+        opacity: initial;
+        display: block;
+
+    }
+    .carousel-control-prev-icon {
+        display: block;
+
+background-image: url(img/icons8-go-back-48.png);    }
+.carousel-control-next, .carousel-control-prev {
+    display: block;
+    opacity: initial;
+    width: initial;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 50%; /* Đặt vị trí theo chiều dọc ở giữa */
+    transform: translateY(-50%); /* Dịch chuyển lên trên để căn giữa theo chiều dọc */
+  }
+
+  .accordion-button::after{
+    background-image:url(img/icons8-plus-32.png) !important;
+    
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(img/icons8-minus-32.png) !important;
+
+}
+.con1 *{
+    font-size: small;
+}
+.col-4 *{margin-top: 10px;}
+.col-4 li{
+list-style: disc !important;
+}
+/* Tệp CSS của bạn */
+/* Tệp CSS của bạn */
+.img-click img:focus {
+    border: 5px solid rgb(95, 222, 237) !important; /* Đặt kiểu viền xanh khi phần tử được focus */
+}
+.img-click *{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.also-like{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/* footer */
+#bank {
+    display: flex; /* Sử dụng flexbox để xếp ảnh */
+    justify-content: space-between; /* Các ảnh sẽ căn giữa và có khoảng cách giữa chúng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+}
+
+#bank li {
+    margin-right: 10px; /* Khoảng cách giữa các ảnh */
+ 
+}
+#bank li img {
+ width: 35px;
+ height: 25px;
+ 
+}
+
+#aboutme{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#bank {
+    border-left: 5px solid #525250;
+    padding-left: 10px; /* Để tạo khoảng cách giữa border và nội dung */
+}
+.information{
+background-color: #EEEEEE;
+
+}
+.list-group-item {
+background-color: transparent; /* Hoặc */
+background-color: initial;
+border: none;
+}
+.endft{
+background-color: #DDDDDD;
+}
+/* footer p{
+align-items: center;
+justify-content: flex-start;
+}  */
+.wrap-ft{
+display: flex;
+height: 50px;
+max-width: 1366px;
+margin: 0 auto;
+justify-content: space-between;
+
+}
+.fsta{
+height: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.fend{
+height: 100%;
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.wrap-ft p{
+margin-bottom: 0px;
+}
+#ulft{
+margin-right: 5px;
+margin-left: auto;}
+.pan{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}

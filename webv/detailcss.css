@@ -1,0 +1,244 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.main-content{
+    height: 100%;
+}
+.chrome-main-content--accessible {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.quocGia{
+    
+        box-sizing: border-box;
+        height: 30px;
+        margin: 0 auto;
+        max-width: 1366px;
+        padding: 0;
+
+}
+#s1,.menu1,.menuan,.new-sale,.about-app,.info{
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+.qg{
+    float: right;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px !important;
+    padding-right: 40px !important;
+}
+
+
+
+
+
+ li {
+    /* display: inline-block; */
+    /* margin-right: 10px; Thêm khoảng cách giữa các mục danh sách nếu cần */
+    list-style: none;
+}
+.qg li {
+    display: inline-block;
+
+    /* border-right: 1px solid #000; Màu và kiểu gạch phân cách */
+    /* padding-right: 10px; /* Khoảng cách giữa gạch và nội dung */
+    /* margin-right: 10px;  */
+    border-left:1px solid #DDDDDD ;
+}
+.qg li:last-child {
+    border-right:1px solid #DDDDDD;
+}
+
+
+
+ .qg a {
+    color: var(--f1xms7);
+    display: block;
+    line-height: 30px;
+    padding: 0 19px;
+    text-decoration: none;
+}
+header{
+    font-family: futura-pt,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    
+}
+.search-menu{
+    height: 90px;
+}
+.menuds{
+    background-color: black;
+    width: 100%;
+}
+.search-menu{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+.searchds{
+    color: aliceblue;
+    height: 45px;
+}
+#iconh{
+    font-size: 20px;
+}
+.searchds{
+    background-color: #2D2D2D;
+}
+a {
+    color: inherit; /* Sử dụng màu của phần tử cha */
+    text-decoration: none; /* Bỏ gạch chân cho liên kết */
+
+}
+.menuds{
+    background-color: #525250;
+}
+.menu1{
+    height: 45px;
+
+}
+#vinh:hover+.menu2{
+display: block;
+}
+.tt{
+    width: 100%;
+    background-color: #2D2D2D;
+    height: 60px;
+}
+.banner{
+    background-color: #FF385C;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.accordion-button:active {
+    background-color: transparent; /* Hoặc màu nền khác tùy chọn */
+}
+
+/* Loại bỏ màu xanh khi focus */
+.accordion-button:focus {
+    background-color: transparent; /* Hoặc màu nền khác tùy chọn */
+    outline: none; /* Loại bỏ đường viền màu xanh khi focus */
+}
+.accordion-button:not(.collapsed) {
+    color: initial; /* Đặt màu chữ về mặc định */
+    background-color: initial; /* Đặt màu nền về mặc định */
+    box-shadow: none; /* Bỏ box shadow */
+}
+.accordion-button:focus {
+    border-color: initial;
+    outline: 0;
+    box-shadow: initial;
+}
+.col1{
+    position: relative;
+}
+.color{
+    position: absolute;
+    left: 0%;
+    bottom: 25%;
+    background-color: #FDFDFD;
+}
+@font-face {
+    font-family:'custom';
+    src: url('font/FuturaPTLight.otf') format('.otf');
+   
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    letter-spacing: .4px;
+    line-height: 1.38em;
+}
+
+/* Import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* Use the font in your CSS rules */
+p {
+  font-family: 'Patrick Hand', cursive;
+font-size: small;}
+
+.information{
+  background-color: #EEEEEE;
+  
+}
+.list-group-item {
+  background-color: transparent; /* Hoặc */
+  background-color: initial;
+  border: none;
+}
+#bank {
+    display: flex; /* Sử dụng flexbox để xếp ảnh */
+    justify-content: space-between; /* Các ảnh sẽ căn giữa và có khoảng cách giữa chúng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách */
+}
+
+#bank li {
+    margin-right: 10px; /* Khoảng cách giữa các ảnh */
+ 
+}
+#bank li img {
+ width: 35px;
+ height: 25px;
+ 
+}
+
+#aboutme{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#bank {
+    border-left: 5px solid #525250;
+    padding-left: 10px; /* Để tạo khoảng cách giữa border và nội dung */
+}
+
+.wrap-ft{
+    display: flex;
+    height: 50px;
+    max-width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.fsta{
+    height: 100%;
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.fend{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.wrap-ft p{
+    margin-bottom: 0px;
+}
+#ulft{
+    margin-right: 5px;
+    margin-left: auto;}
+    .pan{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .endft{
+        background-color: #DDDDDD;
+    }

@@ -1,0 +1,296 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.main-content{
+    height: 100%;
+}
+.chrome-main-content--accessible {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.quocGia{
+    
+        box-sizing: border-box;
+        height: 30px;
+        margin: 0 auto;
+        max-width: 1366px;
+        padding: 0;
+
+}
+#s1,.menu1,.menuan,.new-sale,.about-app,.info,.cart-content{
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+.qg{
+    float: right;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px !important;
+    padding-right: 40px !important;
+}
+
+
+
+
+ li {
+    /* display: inline-block; */
+    /* margin-right: 10px; Thêm khoảng cách giữa các mục danh sách nếu cần */
+    list-style: none;
+}
+.qg li {
+    display: inline-block;
+
+    /* border-right: 1px solid #000; Màu và kiểu gạch phân cách */
+    /* padding-right: 10px; /* Khoảng cách giữa gạch và nội dung */
+    /* margin-right: 10px;  */
+    border-left:1px solid #DDDDDD ;
+}
+.qg li:last-child {
+    border-right:1px solid #DDDDDD;
+}
+
+
+
+ .qg a {
+    color: var(--f1xms7);
+    display: block;
+    line-height: 30px;
+    padding: 0 19px;
+    text-decoration: none;
+}
+header{
+    font-family: futura-pt,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    
+}
+.search-menu{
+    height: 90px;
+}
+.menuds{
+    background-color: black;
+    width: 100%;
+}
+.search-menu{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+.searchds{
+    color: aliceblue;
+    height: 45px;
+}
+#iconh{
+    font-size: 20px;
+}
+.searchds{
+    background-color: #2D2D2D;
+}
+a {
+    color: inherit; /* Sử dụng màu của phần tử cha */
+    text-decoration: none; /* Bỏ gạch chân cho liên kết */
+
+}
+.menuds{
+    background-color: #525250;
+}
+.menu1{
+    height: 45px;
+
+}
+
+.tt{
+    width: 100%;
+    background-color: #2D2D2D;
+    height: 60px;
+}
+.banner{
+    background-color: #FF385C;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.leavesden4 {
+    font-family: futura-pt,FuturaStd,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: .8px;
+    color: var(--flexible-banner-text-color);
+    line-height: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+}
+.first-pic{
+
+    background-image: url(img/2023_homepage_hero-1a_mw_1440x640.webp);
+     width: 100%;
+    height: 640px;
+    background-repeat: no-repeat; 
+
+}
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5%; /* Điều chỉnh chiều cao của phần bottom bạn muốn làm tối */
+    background: rgba(0, 0, 0, 0.5); /* Màu nền với độ trong suốt bạn muốn */
+    z-index: 1;
+}
+#ft1 {
+    position: relative;
+}
+#ft1 .ft1img {
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    backdrop-filter: blur(20px); /* Đặt mức độ mờ */
+    filter: blur(0px); /* Đặt mức độ mờ cho trình duyệt không hỗ trợ backdrop-filter */
+}
+
+.img-col {
+    overflow: hidden; /* Ẩn phần ngoài chiều rộng của section */
+}
+
+.four-pic {
+    list-style: none; /* Loại bỏ chấm đầu dòng của danh sách */
+    display: flex; /* Sắp xếp các mục trên cùng một dòng */
+    padding: 0; /* Loại bỏ lề của danh sách */
+}
+
+.four-pic li {
+    flex: 1; /* Các mục chia sẻ chiều rộng bằng nhau */
+    margin: 0; /* Loại bỏ lề của mục */
+}
+
+.feature__image img {
+    width: 100%; /* Ảnh sẽ vừa với chiều rộng của li */
+    height: auto; /* Kích thước chiều cao được tự động điều chỉnh để không bị méo */
+}
+.feed{
+    font-weight: 900;
+    font-size: 55px;
+    font-family: futura-pt,sans-serif;
+}
+#about-app {
+    background: linear-gradient(90deg, #9CF0E0 0%, #9447FF 100%);
+    margin-top: -16px;
+}
+.flexible-banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0 16px;
+    justify-content: center;
+}
+#quote{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    .quote {
+        display: flex;
+        align-items: center; /* Căn giữa theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        height: 100%; /* Đảm bảo chiều cao của quote bằng với phần tử chứa nó */
+    }
+    
+    #bank {
+        display: flex; /* Sử dụng flexbox để xếp ảnh */
+        justify-content: space-between; /* Các ảnh sẽ căn giữa và có khoảng cách giữa chúng */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+        padding: 0; /* Loại bỏ padding mặc định của danh sách */
+    }
+
+    #bank li {
+        margin-right: 10px; /* Khoảng cách giữa các ảnh */
+     
+    }
+    #bank li img {
+     width: 35px;
+     height: 25px;
+     
+    }
+
+    #aboutme{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #bank {
+        border-left: 5px solid #525250;
+        padding-left: 10px; /* Để tạo khoảng cách giữa border và nội dung */
+    }
+  .information{
+    background-color: #EEEEEE;
+    
+  }
+  .list-group-item {
+    background-color: transparent; /* Hoặc */
+    background-color: initial;
+    border: none;
+}
+ .endft{
+    background-color: #DDDDDD;
+}
+/* footer p{
+    align-items: center;
+    justify-content: flex-start;
+}  */
+.wrap-ft{
+    display: flex;
+    height: 50px;
+    max-width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.fsta{
+    height: 100%;
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.fend{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.wrap-ft p{
+    margin-bottom: 0px;
+}
+#ulft{
+    margin-right: 5px;
+    margin-left: auto;}
+    .pan{
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #header{
+        top: 0 !important;
+        position: -webkit-sticky; /* Safari */
+        position: sticky !important;
+     
+      }

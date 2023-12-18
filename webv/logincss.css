@@ -1,0 +1,66 @@
+body {
+    background-color: #EEEEEE;
+    margin: 0; /* Loại bỏ margin mặc định của body */
+    padding: 0; /* Loại bỏ padding mặc định của body */
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center; /* Thêm text-align để căn giữa nội dung */
+}
+
+.TT {
+    height: 670px;
+    width: 694px !important;
+    background-color:#FFFFFF;
+    margin: 0 auto; /* Đặt margin tự động trước và sau để căn giữa */
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #000; 
+}
+#sign{
+    border-left: #000 solid 2px;
+    border-bottom: #000 solid 2px;
+}
+.TT a{
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2.5;
+}
+.form-control{
+    border: #000 solid 1px !important;
+    border-radius: 0;
+}
+
+.bo{  
+      border: #E9E9E9E9 solid 2px;
+}
+.col-md-7{
+    width: 500px;
+}
+@font-face {
+    font-family: 'custom';
+    src: url('font/FuturaPTLight.otf') format('.otf');
+   
+    font-weight: normal;
+    font-style: normal;
+}
+.bo:hover {
+    background-color:coral; /* Đổi màu nền thành đen khi hover */
+}

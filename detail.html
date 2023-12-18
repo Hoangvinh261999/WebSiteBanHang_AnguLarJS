@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div id="main-content">
+            <div class="chrome-main-content--accessible">
+                <div id="header">
+
+                </div>
+                <div class="mt-5 text-center">
+                    <h1 class="text-center">Men's Jean</h1>
+                </div>
+                <div class="text-jeans container w-50">
+                    <div class="accordion border-0" id="accordionExample">
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class=" text-center accordion-button p-0"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    The staple of all staples, our edit of men's
+                                    jeans is the gift that just keeps on
+                                    giving............
+                                </button>
+                            </h2>
+                            <div class="mb-4" id="collapseOne"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    Whether you're looking for a classic
+                                    blue-wash pair to build 'fits around, or
+                                    you’re after some men’s cropped jeans to
+                                    show off
+                                    those sneaks: there's always something to
+                                    cop. Find fail-safe jeans for men at ASOS
+                                    DESIGN, ft. a range of fits from
+                                    super-skinny
+                                    to wide leg. If you love a low-key look,
+                                    choose men’s loose-fit jeans from Jack &
+                                    Jones, or let denim hero Topman take you out
+                                    of
+                                    the blue and into the hue with neutral
+                                    tones and distressed details. Whatever the
+                                    occasion, you’ll find the jeans of your
+                                    dreams in this edit. </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+    
+        
+            <div class="container">
+                <div class="row mb-1">
+                    <div class="col-3" ng-repeat="sp in jeans">
+                        <div class="col1" >
+                            <img src="img/{{sp.hinh}}">
+                            <a href ="#!detailproduct" ng-click="showProductDetail(sp)"><p class="color mb-0">MORE COLOURS</p></a>
+                            <a href ="#!detailproduct"> <p>ASOS DESIGN spray on jeans with power stretch in washed black</p></a>
+                            <p><strong>{{sp.gia}}</strong></p>
+                        </div>
+                </div>
+            </div>
+
+                    
+                    <div class="mt-5 text-center">
+                        <h1 class="text-center">Women's Blazers</h1>
+                    </div>
+                    <div class="text-jeans container w-50">
+                        <div class="accordion border-0" id="accordionExample">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class=" text-center accordion-button p-0"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Ah, the tro: the office OG that’ll see you from desk to date night, weekend brunch and beyond.......
+                                    </button>
+                                </h2>
+                                <div class="mb-4" id="collapseOne"
+                                    class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        Our edit of women’s blazers is here to provide structured styles that’ll have you catching compliments.
+                                         Browse Topshop for oversized blazers, cropped fits and hot-right-now fabrics (see: pink velvet) – or, 
+                                          retro in check patterns from River Island – think brown, red and orange checks for major 90s vibes. 
+                                          Scroll ASOS DESIGN for longline blazers to add a bit of glam to your go-to jeans – think metallic finishes,
+                                           silver shimmer and colour-block designs. Like a looser fit? Stradivarius has dad blazers wrapped up (without 
+                                           the corny jokes, obv), while pastel shades and romantic prints are Miss Selfridge's speciality. Time to blaze 
+                                           through the season.</div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+               
+                <div class="container">
+                    <div class="row mb-1" id="anh-resize">
+                        <div class="col-3" ng-repeat="sp in blazers">
+                            <div class="col1">
+                                <img src="img/{{sp.hinh}}" ng-click="showProductDetail(sp)">
+                                <a href ="#!detailproduct" ng-click="showProductDetail(sp)"><p class="color mb-0">MORE COLOURS</p></a>
+                                <a href ="#!detailproduct" ng-click="showProductDetail(sp)"> <p>ASOS DESIGN spray on blazer with power stretch in washed black</p></a>
+                                <p><strong>{{sp.gia}}</strong></p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <h1 class="text-center">Women's Shoes</h1>
+                </div>
+                <div class="text-jeans container w-50">
+                    <div class="accordion border-0" id="accordionExample">
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class=" text-center accordion-button p-0"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Look to our edit of shoes for women to get your 'fit sorted from the ground up. Carry......
+                                </button>
+                            </h2>
+                            <div class="mb-4" id="collapseOne"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    your work look into a BNO with court, stiletto and platform heels by ASOS DESIGN, or scroll our selection of wedding
+                                     shoes for women that are aisle approved. On the hunt for your new go-to? Browse Converse for ladies’ shoes
+                                      in low-profile and high-top designs (not to mention the huge range of colours and prints, ofc). If your 
+                                      athleisure aesthetic is making an appearance, Nike is hard to beat, serving up casual women’s shoes and sporty trainers 
+                                      that you can hit the ground running in. Or, 
+                                    filter sliders that you can slip on for those off-duty days – we give them 10/10 in the comfort stakes.div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="container">
+                <div class="row mb-1" id="anh-resize">
+            
+                    <div class="col-3" ng-repeat="sp in shoes">
+                        <div class="col1">
+                            <img src="img/{{sp.hinh}}" alt ng-click="showProductDetail(sp)">
+                            <a href ="#!detailproduct" ng-click="showProductDetail(sp)"><p class="color mb-0">MORE COLOURS</p></a>
+                            <a href ="#!detailproduct" ng-click="showProductDetail(sp)"> <p>ASOS DESIGN spray on jeans with power stretch in washed black</p></a>
+                            <p><strong>{{sp.gia}}</strong></p>
+                        </div>
+
+                        
+                    </div>
+            
+                  
+            
+               
+            
+                 
+
+        </div><!--hetmaincontain-->
+        
+     
+    
+
+    </div>
+</div>
+
+
+</div><!--hetmaincontain-->
+
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="
+    sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    
+    </script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="detailcss.css">
+    <script src="https://kit.fontawesome.com/d49588c4a5.js"
+        crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,86 @@
+[
+   
+     {
+       "id": 1,
+       "name": "jean1",
+       "hinh": "jin1.webp",
+       "gia": 1125000,
+       "size":[27,28,30],
+       "hct":[
+        {
+          "hinh1":  "anhchitiet.webp",
+          "hinh2":  "anhchitiet2.webp",
+          "hinh3":  "anhchitiet3.webp",
+          "hinh4":  "anhchitiet4.webp"
+
+        }
+    ]
+     },
+     {
+       "id": 2,
+       "name": "jean2",
+       "hinh": "jin2.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 3,
+       "name": "jean3",
+       "hinh": "jin3.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 4,
+       "name": "jean4",
+       "hinh": "jin4.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 5,
+       "name": "jean5",
+       "hinh": "jin5.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 6,
+       "name": "jean6",
+       "hinh": "jin6.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 7,
+       "name": "jean7",
+       "hinh": "jin7.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 8,
+       "name": "jean8",
+       "hinh": "jin8.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 9,
+       "name": "jean9",
+       "hinh": "jin9.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 10,
+       "name": "jean10",
+       "hinh": "jin10.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 11,
+       "name": "jean11",
+       "hinh": "jin11.webp",
+       "gia": 1125000
+     },
+     {
+       "id": 12,
+       "name": "jean12",
+       "hinh": "jin1.webp",
+       "gia": 1125000
+     }
+   ]
+   

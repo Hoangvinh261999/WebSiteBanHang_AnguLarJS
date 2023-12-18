@@ -1,0 +1,69 @@
+[
+    {
+        "id": "s1",
+        "name": "shoes1",
+        "hinh": "g1.webp",
+        "gia": 2225000
+      },
+      {
+        "id": "s2",
+        "name": "shoes2",
+        "hinh": "g2.webp",
+        "gia": 2225000
+      },    
+      {
+        "id": "s3",
+        "name": "shoes3",
+        "hinh": "g3.webp",
+        "gia": 2225000
+      },    {
+        "id": "s4",
+        "name": "shoes4",
+        "hinh": "g4.webp",
+        "gia": 2225000
+      },    {
+        "id": "s5",
+        "name": "shoes5",
+        "hinh": "g5.webp",
+        "gia": 2225000
+      },    {
+        "id": "s6",
+        "name": "shoes6",
+        "hinh": "g6.webp",
+        "gia": 2225000
+      },    {
+        "id": "s7",
+        "name": "shoes7",
+        "hinh": "g7.webp",
+        "gia": 2225000
+      },    {
+        "id": "s8",
+        "name": "shoes8",
+        "hinh": "g8.webp",
+        "gia": 2225000
+      },    {
+        "id": "s9",
+        "name": "shoes9",
+        "hinh": "g3.webp",
+        "gia": 2225000
+      },
+      {
+        "id": "s9",
+        "name": "shoes9",
+        "hinh": "g2.webp",
+        "gia": 2225000
+      },
+      {
+        "id": "s9",
+        "name": "shoes9",
+        "hinh": "g1.webp",
+        "gia": 2225000
+      },
+      {
+        "id": "s9",
+        "name": "shoes9",
+        "hinh": "g8.webp",
+        "gia": 2225000
+      }
+      
+]
